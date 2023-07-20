@@ -1,0 +1,22 @@
+{
+  "params":
+  {
+    "local_server": "True",
+    "local_uri": "mysql://root:@localhost/travel and tourism",
+    "prod_uri": "mysql://root:@localhost/travel and tourism",
+    "fb_url": "https://facebook.com/travel and tourism",
+    "tw_url": "https://twitter.com/travel and tourism",
+    "gh_url": "https://github.com/travel and tourism",
+    "blog_name": "travel and tourism",
+    "tag_line": "A Blog For Tourists",
+    "gmail-user": "parul.gup.2023@gmail.com",
+    "gmail-password": "jullpkhiqmopemtl",
+    "no of posts": 3,
+    "admin_user": "shristi",
+    "admin_pass": "12345",
+    "upload_location": "D:\\shristi\\PycharmProjects\\project4"
+
+  }
+
+
+}

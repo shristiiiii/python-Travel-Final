@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block body %}
+
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('{{ url_for('static',filename='assets/img/about-bg.jpg')}}')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                            <h1>About Me</h1>
+                            <span class="subheading">This is what I do.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <p>Tourism is a vibrant industry that encompasses travel for leisure, business, and cultural exploration. It involves individuals or groups visiting various destinations to experience their attractions, natural wonders, historical sites, and local cultures. Tourism plays a crucial role in economic growth, generating employment opportunities and revenue for communities. It promotes cultural exchange, fostering understanding and appreciation among different societies. Moreover, tourism allows individuals to unwind, rejuvenate, and create cherished memories through diverse activities such as sightseeing, adventure sports, and culinary experiences. By embracing responsible and sustainable practices, tourism can continue to offer enriching experiences while preserving the environment and benefiting local communities for generations to come.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        {% endblock %}
